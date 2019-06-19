@@ -6,7 +6,7 @@ services:
 
   web:
     build: .
-    image: glzjin/buuctf_2018_online_tool
+    image: ctftraining/buuctf_2018_online_tool
     restart: always
     ports:
       - "127.0.0.1:8302:80"
